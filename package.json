@@ -1,0 +1,52 @@
+{
+  "name": "carbon-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@carbon/icon-helpers": "^10.53.0",
+    "@carbon/icons-react": "^11.50.0",
+    "@carbon/react": "^1.33.0",
+    "@carbon/themes": "^11.40.0",
+    "@carbon/type": "^11.31.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "carbon-components": "^10.58.15",
+    "carbon-components-react": "^8.67.0",
+    "localforage": "^1.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.63.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
